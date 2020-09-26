@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card">
+        <div class="photo">
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/3b/36/ca/3b36ca3afe0fa0fd4984b9eee2e154bb.jpg">
+        </div>
+        <div class="description">
+            <h2>{{product.title}}</h2>
+            <h4>{{product.subTitle}}</h4>
+            <h1>{{product.price | currency}}</h1>
+            <p>{{product.description}}</p>
+            <button (click)="checkout()">Checkout</button>
+        </div>
+    </div>
+</div>
